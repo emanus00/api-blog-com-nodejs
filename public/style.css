@@ -1,0 +1,30 @@
+.categoria-list {
+    margin-top: 10px; /* Espaço superior entre o título e a lista de categorias */
+}
+
+.categoria-list a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: #007bff; /* Cor do texto dos links */
+    display: block; /* Faz os links ocuparem toda a largura disponível */
+    margin-bottom: 5px; /* Espaço entre os links */
+}
+
+.categoria-list a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre os links */
+}
+
+/* Estilos padrão para os links de categoria (botões) */
+.categoria-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Efeito de transição suave */
+}
+
+/* Estilos para o efeito hover */
+.categoria-link:hover {
+    background-color: #0056b3; /* Cor diferente ao passar o mouse */
+}
